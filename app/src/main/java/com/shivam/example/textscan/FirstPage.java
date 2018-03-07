@@ -26,7 +26,7 @@ public class FirstPage extends AppCompatActivity {
                     startActivity(i);}
                 else
                 {
-                    Toast.makeText(FirstPage.this, "Internet Unavailable", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(FirstPage.this, "Internet Unavailable.Please Check your Connectivity", Toast.LENGTH_SHORT).show();
                 }
 
             }
